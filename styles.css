@@ -1,10 +1,10 @@
-/*  your css code here. If applicable */
-  table {
-            width: 50%;
-            border-collapse: collapse;
-            background-color: yellow;
-            text-align: center;
-        }
+table {
+    width: 50%;
+    border-collapse: collapse; /* Ensures borders are applied correctly */
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid black; /* Explicitly setting the border */
+}
         th, td {
             border: 1px solid black;
             padding: 10px;
